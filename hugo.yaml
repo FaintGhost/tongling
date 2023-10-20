@@ -1,0 +1,48 @@
+baseURL: "https://www.tongling.de"
+languageCode: en-us
+title: tongling
+theme: PaperMod
+menu:
+  main:
+    - weight: 1
+      identifier: about
+      pre: ""
+      post: ""
+      name: About
+      url: /about/
+      title: ""
+    - weight: 2
+      identifier: projects
+      pre: ""
+      post: ""
+      name: Projects
+      url: /projects/
+      title: ""
+    - weight: 3
+      identifier: resume
+      pre: ""
+      post: ""
+      name: Resume
+      url: /resume/
+      title: ""
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+languages:
+  de:
+    contentDir: content/de
+    disabled: false
+    languageCode: de-DE
+    languageDirection: ltr
+    languageName: Deutsch
+    weight: 1
+    params:
+      subtitle: "Referenz, Tutorials und Erklärungen"
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    weight: 2
+    params:
+      subtitle: "Reference, Tutorials, and Explanations"

@@ -1,80 +1,84 @@
-baseURL: "https://www.tongling.de" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: https://www.tongling.de
+languageCode: zh-cn # en-us
 title: Home
-paginate: 5
-theme: PaperMod
+theme: PaperMod # 主题名字，和themes文件夹下的一致
 
-enableInlineShortcodes: true
-enableRobotsTXT: true
+enableInlineShortcodes: true #允许内联短码
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
+
+hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-enableEmoji: true
-pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+
+#googleAnalytics: UA-123-45 # 谷歌统计
+# Copyright: Sulv
+
+paginate: 15 # 每页显示的文章数
 
 minify:
   disableXML: true
   # minifyOutput: true
 
+permalinks: #浏览器链接显示方式
+  post: "/:title/"
+  # post: "/:year/:month/:day/:title/"
+
+defaultContentLanguage: en # 最顶部首先展示的语言页面
+defaultContentLanguageInSubdir: true
+
 languages:
-  de:
-    languageName: "Deutsch :de:"
-    languageAltTitle: French
-    weight: 1
-    title: Home
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: About
-          url: archives/
-          weight: 5
-        - name: Project
-          url: frtags
-          weight: 10
-        - name: Resume
-          url: frcategories
-          weight: 10
   en:
-    languageName: "English :us:"
-    weight: 2
-    title: Home
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
+    languageName: "English"
+    # contentDir: content/english
+    weight: 1
+    profileMode:
+      enabled: true
+      title: (〃'▽'〃)
+      subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👏🏼欢迎光临素履(Sulv)的博客<br/>👇联系方式"
+      imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
+      imageTitle:
+      imageWidth: 150
+      imageHeight: 150
+      buttons:
+        - name: 👨🏻‍💻技术
+          url: posts/tech
+        - name: 📕阅读
+          url: posts/read
+        - name: 🏖生活
+          url: posts/life
     menu:
       main:
-        - name: About
-          url: archives
-          weight: 5
-        - name: Project
-          url: search/
-          weight: 10
-        - name: Resume
-          url: tags/
-          weight: 10
-  zh:
-    languageName: "中文 :cn:"
-    weight: 3
-    title: Home
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: 关于
-          url: archives
-          weight: 5
-        - name: 项目
-          url: search/
-          weight: 10
-        - name: 简历
-          url: tags/
-          weight: 10
+        - identifier: search
+          name: 🔍搜索
+          url: search
+          weight: 1
+        - identifier: home
+          name: 🏠主页
+          url: /
+          weight: 2
+        - identifier: posts
+          name: 📚文章
+          url: posts
+          weight: 3
+        - identifier: archives
+          name: ⏱时间轴
+          url: archives/
+          weight: 20
+        - identifier: tags
+          name: 🔖标签
+          url: tags
+          weight: 40
+        - identifier: about
+          name: 🙋🏻‍♂️关于
+          url: about
+          weight: 50
+        - identifier: links
+          name: 🤝友链
+          url: links
+          weight: 60
 
 outputs:
   home:
@@ -84,104 +88,112 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  # description: "这是一个纯粹的博客......"
+  author: Sulv
   # author: ["Me", "You"] # multiple authors
-
-  defaultTheme: auto
-  # disableThemeToggle: true
+  defaultTheme: auto # defaultTheme: light or  dark
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
   ShowShareButtons: true
   ShowReadingTime: true
-  # disableSpecial1stPost: true
+  # disableSpecialistPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
-  ShowToc: true
-  # comments: false
-  images: ["papermod-cover.png"]
+  hideFooter: false # 隐藏页脚
+  ShowWordCounts: true
+  VisitCount: true
 
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+  ShowLastMod: true #显示文章更新时间
 
-  homeInfoParams:
-    Title: "PaperMod"
-    Content: >
-      Welcome to demo of hugo's theme PaperMod.
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
 
-      - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-      - Do give a 🌟 on Github !
-
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+  comments: true
 
   socialIcons:
     - name: github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: KoFi
-      url: "https://ko-fi.com/adityatelange"
-    - name: Rss
+      url: "https://github.com/xyming108"
+    - name: twitter
+      url: "img/twitter.png"
+    - name: facebook
+      url: "https://www.facebook.com/profile.php?id=100027782410997"
+    - name: instagram
+      url: "img/instagram.png"
+    - name: QQ
+      url: "img/qq.png"
+    - name: WeChat
+      url: "img/wechat.png"
+    - name: email
+      url: "mailto:1931559710@qq.com"
+    - name: RSS
       url: "index.xml"
 
-  editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #     Text: "Suggest Changes" # edit text
+  #     appendFilePath: true # to append file path to Edit link
 
-  # label:
-  #     text: "Home"
-  #     icon: icon.png
-  #     iconHeight: 35
+  label:
+    text: "Sulv's Blog"
+    #icon: "img/Q.gif"
+    icon: "https://www.sulvblog.cn/Q.gif"
+    iconHeight: 35
 
-  # analytics:
+  # analytics:  #谷歌分析
   #     google:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "img/Q.gif"
+    favicon16x16: "img/Q.gif"
+    favicon32x32: "img/Q.gif"
+    apple_touch_icon: "Q.gif"
+    safari_pinned_tab: "Q.gif"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
   #     hiddenInList: true # hide on list pages and home
   #     hiddenInSingle: true # hide on single page
 
-  # fuseOpts:
-  #     isCaseSensitive: false
-  #     shouldSort: true
-  #     location: 0
-  #     distance: 1000
-  #     threshold: 0.4
-  #     minMatchCharLength: 0
-  #     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-  #     keys: ["title", "permalink", "summary", "content"]
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 1
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary"]
+
+  twikoo:
+    version: 1.4.11
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
 
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
   highlight:
-    noClasses: false
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
     # style: monokai
+    style: darcula
+
+    # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
+    # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
+    # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
+    # lineNoStart：行号从编号几开始，一般从 1 开始。
+    # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
+    # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
+    # noClasses：使用 class 标签，而不是内嵌的内联样式
 
 privacy:
   vimeo:

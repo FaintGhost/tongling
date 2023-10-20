@@ -1,5 +1,5 @@
 baseURL: "https://adityatelange.github.io/hugo-PaperMod/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: PaperMod
+title: Home
 paginate: 5
 theme: PaperMod
 
@@ -20,8 +20,8 @@ languages:
   de:
     languageName: "Deutsch :de:"
     languageAltTitle: French
-    weight: 2
-    title: PaperMod
+    weight: 1
+    title: Home
     taxonomies:
       category: FRcategories
       tag: FRtags
@@ -40,11 +40,10 @@ languages:
         - name: FRSeries
           url: frseries
           weight: 10
-        - name: NullLink
-          url: "#"
   en:
     languageName: "English :us:"
-    weight: 1
+    weight: 2
+    title: Home
     taxonomies:
       category: categories
       tag: tags

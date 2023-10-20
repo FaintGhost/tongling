@@ -28,17 +28,14 @@ languages:
       series: FRseries
     menu:
       main:
-        - name: Archive
+        - name: About
           url: archives/
           weight: 5
-        - name: FRTags
+        - name: Project
           url: frtags
           weight: 10
-        - name: FRCategories
+        - name: Resume
           url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
           weight: 10
   en:
     languageName: "English :us:"
@@ -50,19 +47,34 @@ languages:
       series: series
     menu:
       main:
-        - name: Archive
+        - name: About
           url: archives
           weight: 5
-        - name: Search
+        - name: Project
           url: search/
           weight: 10
-        - name: Tags
+        - name: Resume
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-        - name: Discord
-          url: https://discord.gg/ahpmTvhVmp
+  zh:
+    languageName: "中文 :cn:"
+    weight: 3
+    title: Home
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: 关于
+          url: archives
+          weight: 5
+        - name: 项目
+          url: search/
+          weight: 10
+        - name: 简历
+          url: tags/
+          weight: 10
 
 outputs:
   home:

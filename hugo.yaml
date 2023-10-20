@@ -2,51 +2,57 @@ baseURL: "https://www.tongling.de"
 languageCode: en-us
 title: Home
 theme: PaperMod
-contentDir: content
-menu:
-  main:
-    - weight: 1
-      identifier: about
-      pre: ""
-      post: ""
-      name: About
-      url: /about/
-      title: ""
-    - weight: 2
-      identifier: projects
-      pre: ""
-      post: ""
-      name: Project
-      url: /project/
-      title: ""
-    - weight: 3
-      identifier: resume
-      pre: ""
-      post: ""
-      name: Resume
-      url: /resume/
-      title: ""
-defaultContentLanguage: de
-defaultContentLanguageInSubdir: true
+enableEmoji: true
+
 languages:
   de:
     contentDir: content/de
     disabled: false
     languageCode: de-DE
-    languageDirection: ltr
     languageName: Deutsch
     weight: 1
+    menu:
+      main:
+        - weight: 1
+          name: About
+          url: about
+        - weight: 2
+          name: Project
+          url: project
+        - weight: 3
+          name: Resume
+          url: resume
   en:
     contentDir: content/en
     disabled: false
     languageCode: en-US
-    languageDirection: ltr
     languageName: English
     weight: 2
+    menu:
+      main:
+        - weight: 1
+          name: About
+          url: about
+        - weight: 2
+          name: Project
+          url: project
+        - weight: 3
+          name: Resume
+          url: resume
   zh:
     contentDir: content/en
     disabled: false
     languageCode: zh-CN
-    languageDirection: ltr
     languageName: 中文
-    weight: 2
+    weight: 3
+    menu:
+      main:
+        - weight: 1
+          name: About
+          url: about
+        - weight: 2
+          name: Project
+          url: project
+        - weight: 3
+          name: Resume
+          url: resume

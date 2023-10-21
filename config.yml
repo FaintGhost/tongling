@@ -47,7 +47,7 @@ languages:
           - name: 👨🏻‍💻 Projekt
             url: project
           - name: 📕 Lenbenslauf
-            url: resume.pdf
+            url: resume
           - name: 🏖 Über mich
             url: about
     menu:
@@ -58,7 +58,7 @@ languages:
           weight: 2
         - identifier: resume
           name: 📚 Lenbenslauf
-          url: resume.pdf
+          url: resume
           weight: 3
         - identifier: projects
           name: 🔖 Projekt
@@ -85,7 +85,7 @@ languages:
           - name: 👨🏻‍💻 Projekt
             url: project
           - name: 📕 Resume
-            url: resume.pdf
+            url: resume
           - name: 🏖 About
             url: posts/life
     menu:
@@ -96,7 +96,7 @@ languages:
           weight: 2
         - identifier: resume
           name: 📚 Resume
-          url: resume.pdf
+          url: resume
           weight: 3
         - identifier: projects
           name: 🔖 Project

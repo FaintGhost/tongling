@@ -45,11 +45,11 @@ languages:
         imageHeight: 150
         buttons:
           - name: 👨🏻‍💻 Projekt
-            url: posts/tech
+            url: project
           - name: 📕 Lenbenslauf
             url: resume.pdf
           - name: 🏖 Über mich
-            url: posts/life
+            url: about
     menu:
       main:
         - identifier: home
@@ -83,7 +83,7 @@ languages:
         imageHeight: 150
         buttons:
           - name: 👨🏻‍💻 Projekt
-            url: posts/tech
+            url: project
           - name: 📕 Resume
             url: resume.pdf
           - name: 🏖 About

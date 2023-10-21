@@ -1,6 +1,6 @@
 ---
 author: "Tong Ling"
-title: "Project"
+title: "Praktikum bei Teeamo"
 date: "2023-10-21"
 description: ""
 tags: []
@@ -10,10 +10,6 @@ aliases: []
 ShowToc: false
 TocOpen: false
 ---
-
-## Praktikum bei MDR
-
-![1](/mdr/2023-10-20-220022.png)
 
 ## Praktikum bei Teeamo
 

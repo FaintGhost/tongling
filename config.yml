@@ -121,8 +121,8 @@ params:
   defaultTheme: auto # defaultTheme: light or  dark
   disableThemeToggle: false
   DateFormat: "2006-01-02"
-  ShowShareButtons: true
-  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowReadingTime: false
   # disableSpecialistPost: true
   displayFullLangName: true
   ShowPostNavLinks: true

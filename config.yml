@@ -44,11 +44,11 @@ languages:
         imageWidth: 150
         imageHeight: 150
         buttons:
-          - name: 👨🏻‍💻项目
+          - name: 👨🏻‍💻 Projekt
             url: posts/tech
-          - name: 📕简历
+          - name: 📕 Resume
             url: posts/read
-          - name: 🏖关于
+          - name: 🏖 About
             url: posts/life
     menu:
       main:
@@ -82,11 +82,11 @@ languages:
         imageWidth: 150
         imageHeight: 150
         buttons:
-          - name: 👨🏻‍💻项目
+          - name: 👨🏻‍💻 Projekt
             url: posts/tech
-          - name: 📕简历
+          - name: 📕 Resume
             url: posts/read
-          - name: 🏖关于
+          - name: 🏖 About
             url: posts/life
     menu:
       main:

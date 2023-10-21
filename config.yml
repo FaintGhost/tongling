@@ -39,7 +39,7 @@ languages:
         enabled: true
         title: Tong Ling
         subtitle: "❤️lich Willkommen und viel Spaß~"
-        imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
+        imageUrl: "img/profile.jpg" #图片放在static/img/Q.gif
         imageTitle:
         imageWidth: 150
         imageHeight: 150
@@ -77,7 +77,7 @@ languages:
         enabled: true
         title: Tong Ling
         subtitle: "❤️lich Willkommen und viel Spaß~"
-        imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
+        imageUrl: "img/profile.jpg" #图片放在static/img/Q.gif
         imageTitle:
         imageWidth: 150
         imageHeight: 150

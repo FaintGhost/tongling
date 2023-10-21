@@ -10,6 +10,8 @@ aliases: []
 ShowToc: false
 TocOpen: false
 ---
+![zeugnis1](/mdr/zeugnis1.png)
+![zeugnis2](/mdr/zeugnis2.png)
 ![1](/mdr/2023-10-20-220022.png)
 ![2](/mdr/2023-10-20-220045.png)
 ![3](/mdr/2023-10-20-220245.png)

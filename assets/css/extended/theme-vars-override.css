@@ -7,6 +7,12 @@
     --border: #eee;
 }
 
+.buttons {
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* .dark {
     --theme: #101c7a;
     --entry: #202062;

@@ -30,8 +30,8 @@ defaultContentLanguage: en # 最顶部首先展示的语言页面
 defaultContentLanguageInSubdir: true
 
 languages:
-  en:
-    languageName: "English"
+  de:
+    languageName: "Deutsch :de:"
     # contentDir: content/english
     weight: 1
     params:
@@ -53,19 +53,57 @@ languages:
     menu:
       main:
         - identifier: home
-          name: 🏠主页
+          name: 🏠 Home
           url: /
           weight: 2
         - identifier: resume
-          name: 📚简历
+          name: 📚 Resume
           url: resume
           weight: 3
         - identifier: projects
-          name: 🔖项目
+          name: 🔖 Projekt
           url: project
           weight: 40
         - identifier: about
-          name: 🙋🏻‍♂️关于
+          name: 🙋🏻‍♂️ About
+          url: about
+          weight: 50
+  en:
+    languageName: "English :us:"
+    # contentDir: content/english
+    weight: 1
+    params:
+      profileMode:
+        enabled: true
+        title: (〃'▽'〃)
+        subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👏🏼欢迎光临素履(Tongling)的博客<br/>👇联系方式"
+        imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
+        imageTitle:
+        imageWidth: 150
+        imageHeight: 150
+        buttons:
+          - name: 👨🏻‍💻项目
+            url: posts/tech
+          - name: 📕简历
+            url: posts/read
+          - name: 🏖关于
+            url: posts/life
+    menu:
+      main:
+        - identifier: home
+          name: 🏠 Home
+          url: /
+          weight: 2
+        - identifier: resume
+          name: 📚 Resume
+          url: resume
+          weight: 3
+        - identifier: projects
+          name: 🔖 Project
+          url: project
+          weight: 40
+        - identifier: about
+          name: 🙋🏻‍♂️ About
           url: about
           weight: 50
 
@@ -78,7 +116,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   # description: "这是一个纯粹的博客......"
-  author: Sulv
+  author: Tong Ling
   # author: ["Me", "You"] # multiple authors
   defaultTheme: auto # defaultTheme: light or  dark
   disableThemeToggle: false
@@ -92,7 +130,7 @@ params:
   ShowCodeCopyButtons: true
   hideFooter: false # 隐藏页脚
   ShowWordCounts: true
-  VisitCount: true
+  VisitCount: false
 
   ShowLastMod: true #显示文章更新时间
 

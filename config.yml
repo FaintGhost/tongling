@@ -14,7 +14,7 @@ buildFuture: false
 buildExpired: false
 
 #googleAnalytics: UA-123-45 # 谷歌统计
-Copyright: © 2023 tongling
+Copyright: © 2023 Tong Ling
 
 paginate: 15 # 每页显示的文章数
 
@@ -132,12 +132,12 @@ params:
   ShowWordCounts: true
   VisitCount: false
 
-  ShowLastMod: true #显示文章更新时间
+  ShowLastMod: false #显示文章更新时间
 
   ShowToc: true # 显示目录
   TocOpen: true # 自动展开目录
 
-  comments: true
+  comments: false
 
   socialIcons:
     - name: instagram

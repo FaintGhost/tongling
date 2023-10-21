@@ -12,7 +12,6 @@ TocOpen: false
 ---
 <video id="myVideo" controls autoplay style="width: 442px; height: 960px;">
   <source src="https://files.catbox.moe/mystmo.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
 </video>
 
 <script>

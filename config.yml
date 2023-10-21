@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir: true
 languages:
   de:
     languageName: "Deutsch :de:"
-    # contentDir: content/english
+    contentDir: content/de
     weight: 1
     params:
       profileMode:
@@ -70,7 +70,7 @@ languages:
           weight: 50
   en:
     languageName: "English :us:"
-    # contentDir: content/english
+    contentDir: content/en
     weight: 1
     params:
       profileMode:

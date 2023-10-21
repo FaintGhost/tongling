@@ -1,7 +1,7 @@
 ---
 author: "Tong Ling"
 title: "Internship at MDR"
-date: "2023-10-21"
+date: ""
 description: ""
 tags: []
 categories: []

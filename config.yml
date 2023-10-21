@@ -48,7 +48,7 @@ languages:
             url: posts/tech
           - name: 📕 Resume
             url: posts/read
-          - name: 🏖 About
+          - name: 🏖 Über mich
             url: posts/life
     menu:
       main:
@@ -65,7 +65,7 @@ languages:
           url: project
           weight: 40
         - identifier: about
-          name: 🙋🏻‍♂️ About
+          name: 🙋🏻‍♂️ Über mich
           url: about
           weight: 50
   en:

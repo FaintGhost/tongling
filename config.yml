@@ -103,11 +103,11 @@ params:
 
   socialIcons:
     - name: instagram
-      url: "img/instagram.png"
+      url: "https://www.instagram.com/freshling66/"
     - name: linkedin
-      url: "img/linkedin.png"
+      url: "https://www.linkedin.com/in/tong-ling-b26158263"
     - name: email
-      url: "mailto:1931559710@qq.com"
+      url: "mailto:freshling66@gmail.com"
 
   # editPost:
   #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"

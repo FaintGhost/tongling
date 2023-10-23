@@ -86,7 +86,7 @@ languages:
             url: project
           - name: 📕 Resume
             url: resume
-          - name: 🏖 About
+          - name: 🙋🏻‍♀️ About
             url: about
     menu:
       main:
@@ -103,7 +103,7 @@ languages:
           url: project
           weight: 40
         - identifier: about
-          name: 🙋🏻‍♂️ About
+          name: 🙋🏻‍♀️ About
           url: about
           weight: 50
 

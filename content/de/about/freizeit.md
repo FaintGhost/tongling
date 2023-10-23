@@ -10,7 +10,7 @@ aliases: []
 ShowToc: false
 TocOpen: false
 ---
-<video id="myVideo" controls autoplay style="width: 1080px; height: 1920px;">
+<video id="myVideo" controls autoplay style="width: 540px; height: 960px;">
   <source src="https://files.catbox.moe/plyj9u.mp4" type="video/mp4">
 </video>
 

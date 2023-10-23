@@ -13,7 +13,7 @@ TocOpen: false
 Bei Teeamo Leipzig habe ich im Bereich Online/Offline Marketing gearbeitet. Schau bitte hier mal an.
 
 Oder hier: https://instagram.com/teeamo_leipzig?igshid=MzRlODBiNWFlZA==
-<video id="myVideo" controls autoplay style="width: 442px; height: 960px;">
+<video id="myVideo" controls autoplay style="width: 540px; height: 960px;">
   <source src="https://files.catbox.moe/1ir3s2.mp4" type="video/mp4">
 </video>
 

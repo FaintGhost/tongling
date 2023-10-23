@@ -10,6 +10,14 @@ aliases: []
 ShowToc: false
 TocOpen: false
 ---
+Im Zeitraum 27.03. bis 28.07. habe ich beim MDR (Mitteldeutscher Rundfunk) für Presse und Information und ContentDesk ein Praktikum gemacht. Ich habe für Social Media-Kanäle viele Bilder bearbeitet, Videos geschnitten und mehr mehr…
+
+Hier kannst Du ein Paar Beispiele finden.
+
+Oder hier: https://instagram.com/mdr_mitteldeutscherrundfunk?igshid=MzRlODBiNWFlZA==
+
+Oder hier: https://www.linkedin.com/company/mdr-mitteldeutscherrundfunk
+
 ![zeugnis1](/mdr/zeugnis1.png)
 ![zeugnis2](/mdr/zeugnis2.png)
 ![1](/mdr/2023-10-20-220022.png)

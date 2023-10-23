@@ -10,6 +10,9 @@ aliases: []
 ShowToc: false
 TocOpen: false
 ---
+Bei Teeamo Leipzig habe ich im Bereich Online/Offline Marketing gearbeitet. Schau bitte hier mal an.
+
+Oder hier: https://instagram.com/teeamo_leipzig?igshid=MzRlODBiNWFlZA==
 ![6](/teeamo/2023-10-20-215059.jpg)
 ![1](/teeamo/12.05.23.png)
 ![2](/teeamo/2.png)

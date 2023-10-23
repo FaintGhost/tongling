@@ -48,7 +48,7 @@ languages:
             url: project
           - name: 📕 Lenbenslauf
             url: resume
-          - name: 🏖 Über mich
+          - name: 🙋🏻‍♀️ Über mich
             url: about
     menu:
       main:
@@ -65,7 +65,7 @@ languages:
           url: project
           weight: 40
         - identifier: about
-          name: 🙋🏻‍♂️ Über mich
+          name: 🙋🏻‍♀️ Über mich
           url: about
           weight: 50
   en:

@@ -10,6 +10,22 @@ aliases: []
 ShowToc: false
 TocOpen: false
 ---
+<video id="myVideo" controls autoplay style="width: 1080px; height: 1920px;">
+  <source src="https://files.catbox.moe/plyj9u.mp4" type="video/mp4">
+</video>
+
+<script>
+  var video = document.getElementById("myVideo");
+
+  // 添加其他控制功能，如暂停、音量等
+  function pauseVideo() {
+    video.pause();
+  }
+
+  function setVolume(volume) {
+    video.volume = volume;
+  }
+</script>
 ![1](/life/2023-08-16_151655.jpg)
 ![2](/life/2023-09-07_040744.jpg)
 ![3](/life/2023-09-08_122426.jpg)

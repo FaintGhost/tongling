@@ -1,5 +1,5 @@
 ---
-author: "Tong Ling"
+author: ""
 title: "Praktikum bei MDR"
 date: ""
 description: ""

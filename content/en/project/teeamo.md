@@ -1,5 +1,5 @@
 ---
-author: "Tong Ling"
+author: ""
 title: "Internship at Teeamo"
 date: ""
 description: ""

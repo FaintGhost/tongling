@@ -1,5 +1,5 @@
 ---
-author: "Tong Ling"
+author: ""
 title: "Lebenslauf"
 date: ""
 description: ""

@@ -155,7 +155,7 @@ params:
   label:
     text: "Home"
     #icon: "img/Q.gif"
-    icon: "https://www.sulvblog.cn/Q.gif"
+    # icon: "https://www.sulvblog.cn/Q.gif"
     iconHeight: 35
 
   # analytics:  #谷歌分析
@@ -163,11 +163,11 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "Q.gif"
-    safari_pinned_tab: "Q.gif"
+    favicon: "img/favicon.ico"
+    favicon16x16: "img/favicon.ico"
+    favicon32x32: "img/favicon.ico"
+    apple_touch_icon: "img/favicon.ico"
+    safari_pinned_tab: "img/favicon.ico"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data

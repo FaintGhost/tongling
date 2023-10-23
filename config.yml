@@ -87,7 +87,7 @@ languages:
           - name: 📕 Resume
             url: resume
           - name: 🏖 About
-            url: posts/life
+            url: about
     menu:
       main:
         - identifier: home

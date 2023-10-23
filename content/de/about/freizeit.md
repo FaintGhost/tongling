@@ -1,6 +1,6 @@
 ---
 author: ""
-title: "Wenn Ich in Freizeit"
+title: "Ich im Alltagsleben"
 date: ""
 description: ""
 tags: []

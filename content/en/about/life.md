@@ -1,6 +1,6 @@
 ---
 author: ""
-title: "My Life"
+title: "Me in daily life"
 date: ""
 description: ""
 tags: []

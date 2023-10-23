@@ -1,6 +1,6 @@
 ---
 author: ""
-title: "My Work"
+title: "Me at work"
 date: ""
 description: ""
 tags: []

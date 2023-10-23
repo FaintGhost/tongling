@@ -1,6 +1,6 @@
 ---
 author: ""
-title: "Wenn Ich Arbeite"
+title: "Ich bei der Arbeit"
 date: ""
 description: ""
 tags: []

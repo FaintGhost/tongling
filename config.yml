@@ -46,7 +46,7 @@ languages:
         buttons:
           - name: 👨🏻‍💻 Projekt
             url: project
-          - name: 📕 Lenbenslauf
+          - name: 📕 Lebenslauf
             url: resume
           - name: 🙋🏻‍♀️ Über mich
             url: about
